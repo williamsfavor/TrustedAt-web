@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme  {
+  --color-primary:#5B08A9;
+  --color-primary2: #2B3674;
+  --font-display:"Public Sans","Sans Serif";
+  --theme-shadow-color: rgba(0, 0, 0, 0.1);
+  --theme-shadow: 0 4px 6px -1px var(--theme-shadow-color), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg-up: 0 4px 19px 0.2px rgba(91, 8, 169, 0.02), 0 3px 16px 0.9px rgba(0, 0, 0, 0.07);
+  --btn-shadow-active: 0 4px 19px 0.2px rgba(91, 8, 169, 0.02), 0 3px 16px 1px rgba(0, 0, 0, 0.06);
+  --btn-shadow: 0 4px 19px 0.2px rgba(91, 8, 169, 0.02), 0 3px 16px 0.9px rgba(0, 0, 0, 0.01);
+  
+
+}
+
+.wrapper-animation{
+    animation: scroll 20s linear infinite;
+}
+.wrapper-animation-reverse{
+    animation: scrollReverse 20s linear infinite;
+}
+
+.user-item{
+  flex: 0 0 auto;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Moves half the content width for seamless loop */
+  }
+}
+
+@keyframes scrollReverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+
+.markdown{
+  h1{
+    @apply text-xl font-bold py-3;
+  }
+
+  p{
+    @apply py-2;
+  }
+
+  ul{
+    @apply py-3 pl-8;
+    li{
+      list-style:disc;
+      @apply py-1;
+    }
+  }
+}
