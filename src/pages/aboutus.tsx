@@ -20,7 +20,7 @@ export default function AboutUs() {
       image: ImageOne,
       title: "From \nConversations to Connections",
       content:
-        "Budytalk started with a simple idea: what if social media felt more human again? We envisioned a space where your voice,  not just your text could lead. A place for spontaneous chats, deep conversations, and shared growth between individuals and organizations alike",
+        "TrustedAt started with a simple idea: what if social media felt more human again? We envisioned a space where your voice,  not just your text could lead. A place for spontaneous chats, deep conversations, and shared growth between individuals and organizations alike",
     },
   ];
 
@@ -29,25 +29,25 @@ export default function AboutUs() {
       image: ImgBelieveOne,
       title: "Listen First",
       content:
-        "We believe every meaningful connection begins with understanding so we listen with intention before we speak.",
+        "We lead with empathy. We take time to understand before we act. Whether it’s a user’s concern, a teammate’s idea, or a partner’s feedback—we listen deeply, because trust begins with being heard",
     },
     {
       image: ImgBelieveTwo,
       title: "Grow Together",
       content:
-        "We support each other’s growth — as people, as teams, and as a global community",
+        "We rise by lifting others. We share knowledge, celebrate progress, and support each other’s growth. Our success is collective—when one of us grows, we all move forward.",
     },
     {
       image: ImgBelieveThree,
       title: "Stay Curious",
       content:
-        "We ask questions, explore ideas, and stay open to learning every single day",
+        "We ask questions, challenge assumptions, and explore new possibilities. Curiosity fuels our innovation and keeps us open to better ways of building, connecting, and protecting trust",
     },
     {
       image: ImgBelieveFour,
       title: "Respect Always",
       content:
-        "We treat every voice with dignity — embracing differences and creating safe spaces for all",
+        "We treat everyone with dignity. We honor privacy, embrace diversity, and foster safe spaces for honest expression. Respect is not optional—it’s the foundation of every interaction we have.",
     },
   ];
 
@@ -75,15 +75,15 @@ export default function AboutUs() {
         </h1>
 
         <div className="w-full h-auto py-8 md:px-18 flex items-center justify-center ">
-          <div className="grid md:grid-cols-4 grid-cols-2 md:gap-4">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-cols-2  md:gap-4 ">
             {Array.from(believein, (_) => (
-              <div className="w-[100%] md:min-h-[300px] h-[250px] p-8 px-6  md:p-12 flex flex-col gap-8 md:px-10 ">
+              <div className="w-[100%] md:min-h-[300px] min-h-[250px] p-8 px-6  md:p-12 flex flex-col gap-8 md:px-10 ">
                 <div className="md:w-[80px] w-[60px] h-[60px] md:h-[80px] ">
                   <img src={_.image} alt="" />
                 </div>
                 <div className="flex  flex-col gap-2">
-                  <h1 className="font-bold text-xl">{_.title}</h1>
-                  <p className="text-xs ">{_.content}</p>
+                  <h1 className="font-bold text-[18px] md:text-xl">{_.title}</h1>
+                  <p className="text-xs text-balance ">{_.content}</p>
                 </div>
               </div>
             ))}
@@ -93,17 +93,17 @@ export default function AboutUs() {
       </div>
 
       <div className="w-full flex min-h-[70vh] md:py-12 py-14 items-center justify-center bg-[#E9D2FF]">
-        <div className="md:w-[60%] w-[90%] flex items-center flex-col md:flex-row justify-between md:gap-12 gap-6  ">
+        <div className="md:w-[60%] w-[90%] flex items-center flex-col lg:flex-row md:flex-col justify-between md:gap-12 gap-6  ">
           <div className="md:w-[48%] w-[60%] h-[90%]">
             <img className="w-[100%] h-[100%]" src={ImgeOne} alt="" />
           </div>
-          <div className="md:w-[40%] w-[80%] flex flex-col items-center">
+          <div className="md:w-[90%] lg:w-[40%] w-[80%] flex flex-col items-center">
             <h1 className="md:text-[2.5em] text-3xl text-center font-bold md:leading-12.5 text-gray-800">
               We’re Just Getting Started
             </h1>
 
-            <p className="md:mt-6 mt-2 text text-center md:text-left">
-              Budytalk is growing. Whether you’re a creator, engineer,
+            <p className="md:mt-6 mt-2 text text-center lg:text-left">
+              TrustedAt is growing. Whether you’re a creator, engineer,
               strategist, or community leader — there’s a space for your voice
               here
             </p>
@@ -135,7 +135,7 @@ export default function AboutUs() {
           </svg>
         </div>
         <p className="md:w-[50%] w-[90%] text-center font-medium text-3xl md:text-[2em] text-gray-800">
-          Budytalk gave me the space to speak my truth and build a following all
+          TrustedAt gave me the space to speak my truth and build a following all
           from my voice
         </p>
 
@@ -146,7 +146,7 @@ export default function AboutUs() {
 
           <div>
              <p className="font-semibold text-sm md:text-md">— Brian O.</p>
-            <p className="md:text-sm text-xs" >Student & Budytalk Creator</p>
+            <p className="md:text-sm text-xs" >Student & TrustedAt Creator</p>
           </div>
         </div>
       </div>

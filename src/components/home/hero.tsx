@@ -16,7 +16,7 @@ export default function HeroSection() {
       </div>
 
       <p className=" text-center mt-4 md:mt-0 w-[80%] md:w-auto">
-        Voice-first social networking for creators, professionals, and brands
+        Be Seen. Be Safe. Be Trusted
       </p>
 
       <div className=" gap-4 flex mt-8">

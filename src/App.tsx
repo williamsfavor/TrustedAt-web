@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router"
+import { Route, Routes, useLocation } from "react-router"
 import MainLayout from "./components/layouts/main"
 import HomePage from "./pages/home"
 import AboutUs from "./pages/aboutus"
@@ -9,8 +9,15 @@ import ChildSafetyPage from "./pages/legal/childsafety"
 import CookiePolicyPage from "./pages/legal/cookiepolicy"
 import EthicalCodePage from "./pages/legal/ethicalpage"
 import UserAgreementPage from "./pages/legal/useragreement"
+import { useEffect } from "react"
 
 function App() {
+
+  const {pathname} = useLocation();
+
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:"smooth"});
+  },[pathname]);
 
 
   return (

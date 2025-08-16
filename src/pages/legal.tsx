@@ -1,4 +1,4 @@
-import {  Outlet, useLocation, useNavigate } from "react-router";
+import { Link, Outlet, useLocation, useNavigate } from "react-router";
 
 export default function LegalPage() {
   const location = useLocation();
@@ -41,7 +41,7 @@ export default function LegalPage() {
                   : "hover:text-primary border-transparent "
               } flex items-center px-2 md:border-l-[4px] `}
             >
-              Budytalk ethical code
+              TrustedAt ethical code
             </li>
             <li
               onClick={() => navigate("/legal/child-safety")}

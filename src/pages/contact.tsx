@@ -6,8 +6,8 @@ export default function ContactUs() {
     <>
       <ContactHeroSection></ContactHeroSection>
 
-      <div className="flex items-center md:py-30 md:mt-6 mb-12 md:mb-0 justify-center">
-        <div className="grid md:grid-cols-3  gap-10 p-6 md:w-[80%] w-[90%] ">
+      <div className="flex items-center md:py-30 md:mt-0 mb-12 md:mb-0 justify-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-10 p-6 md:w-[80%] w-[90%] ">
           <ContactCard
             title="Send us email"
             description="Have a question, suggestion, or just want to say hi? Drop us an email and we'll get back to you fast."

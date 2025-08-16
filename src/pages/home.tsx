@@ -61,20 +61,20 @@ export default function HomePage() {
 
 
   return (
-    <div className="mb-8 flex flex-col items-center justify-center">
+    <div className="mb-8 flex flex-col items-center justify-center ">
       {/* hero section */}
       <HeroSection></HeroSection>
       <div className="flex items-center justify-center pb-12  md:py-16 py-10 mt-8">
-        <h1 className="text-3xl md:text-[2.5em] flex flex-col items-center font-extrabold text-gray-800 ">
-          <span>Every hello starts a new</span>
-          <span className="-translate-y-2">connection on Budytalk</span>
+        <h1 className="text-3xl lg:text-[2.5em] sm:text-3xl md:text-[2.5em] w-[90%] sm:w-[70%] md:w-[60%] lg:w-[60%] text-center flex flex-col items-center font-extrabold text-gray-800 ">
+          <span className=" text-wrap">{"Every hello starts a new \n connection on TrustedAt"}</span>
+        
         </h1>
       </div>
       <div className=" w-full min-h-[40vh]  md:h-[50vh] md:mt-5 overflow-hidden">
         <div className="flex w-max wrapper-animation">
 
           {usersOne.map((user) => (
-            <div className="mx-[20px] min-w-[200px] relative ">
+            <div className="mx-[20px] sm:text-sm md:text-sm min-w-[200px] relative ">
               <div className="w-[60px] h-[60px] bg-gray-200 overflow-hidden rounded-full">
                 <img
                   className="w-full h-full"
@@ -118,18 +118,18 @@ export default function HomePage() {
 
       <DetailsHome info={info} title={true} reverse={true}></DetailsHome>
 
-      <div className="md:w-[80%] py-8 md:rounded-4xl  flex  items-center justify-center  bg-primary">
-        <div className="md:w-[70%] flex flex-col md:flex-row items-center justify-between gap-4 md:gap-12 even:flex-row-reverse ">
+      <div className="sm:text-sm md:text-sm md:w-full md:rounded-0 lg:w-[85%] xl:w-[80%] py-8 lg:rounded-4xl  flex  items-center justify-center  bg-primary">
+        <div className="md:w-[70%] sm:w-[60%] w-[70%] flex flex-col md:flex-row items-center justify-between gap-4 md:gap-12 even:flex-row-reverse ">
           <div className="md:w-[48%] w-[70%]">
             <img className="w-[90%" src={Image5} alt="" />
           </div>
-          <div className="md:w-[40%] w-[90%] flex  flex-col items-center md:items-baseline">
+          <div className="lg:w-[40%]  md:w-[40%] w-[90%] flex  flex-col items-center md:items-baseline">
             <h1 className=" md:text-[2em] text-3xl text-center md:text-left font-bold leading-8.5 text-white">
               Your Voice. Your People. Your Space.
             </h1>
 
             <p className="mt-6 text-white md:text-left text-center ">
-              Join thousands already sharing, talking, and growing on Budytalk.
+              Join thousands already sharing, talking, and growing on TrustedAt.
               Whether you're a creator, professional, or brand, start real
               conversations that matter
             </p>
@@ -140,28 +140,29 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+     
       <DetailsHome info={info2} title={false} reverse={false}></DetailsHome>
 
       <div className="w-full md:pt-15  flex items-center justify-center flex-col">
-          <h1 className=" text-3xl md:text-[2.5em] flex flex-col md:leading-14 leading-12 items-center font-extrabold text-gray-800 md:w-[50%] w-[80%] text-center">
+          <h1 className=" text-3xl sm:text-[2em] md:text-[2em] lg:text-[2.5em] flex flex-col md:leading-14 leading-12 items-center font-extrabold text-gray-800 md:w-[50%] w-[80%] text-center">
             For Individuals. For Companies. For Connection
           </h1>
       </div>
           {/* discover */}
-       <div className="md:w-[80%] w-[90%] mt-14 md:mt-18 md:py-16 py-12  rounded-4xl  flex items-center justify-center bg-[#EEFFD0]">
-        <div className="md:w-[70%] w-[90%] flex flex-col md:flex-row items-center justify-between gap-12 even:flex-row-reverse ">
+       <div className="md:w-[80%] w-[90%] mt-14 md:mt-18 md:py-16 py-8 sm:py-8  rounded-4xl  flex items-center justify-center bg-[#EEFFD0]">
+        <div className="sm:w-[70%] md:w-[90%] w-[90%] flex flex-col md:flex-row items-center justify-between gap-12 even:flex-row-reverse ">
           <div className="md:w-[48%]  h-full  flex  items-center justify-center ">
             <img className="w-full h-full object-center translate-y-3" src={ImageSeven} alt="" />
           </div>
-          <div className="md:w-[40%] w-[80%] flex items-center flex-col md:flex-row">
+          <div className="md:w-[40%] w-[80%] flex md:items-start text-sm items-center flex-col md:flex-col ">
             <p className="font-medium">For Individual</p>
 
-            <h1 className="text-3xl md:text-[2em] mt-6 text-center md:text-left font-bold leading-8.5 text-gray-800">
+            <h1 className="text-3xl sm:text-[2em] md:text-[1.6em] lg:text-[2em] mt-6 md:mt-4 lg:mt-6  text-center md:text-left font-bold leading-8.5 text-gray-800">
               Create. Share. Discover.
             </h1>
 
             <p className="mt-6 text-gray-800 text-center md:text-left">
-           Budytalk gives you the tools to express your voice through posts, live talks, and VoiceCircles — whether you're a creator, friend, or thinker
+           TrustedAt gives you the tools to express your voice through posts, live talks, and VoiceCircles — whether you're a creator, friend, or thinker
             </p>
 
           
@@ -170,36 +171,41 @@ export default function HomePage() {
       </div>
 
           {/* engage */}
-       <div className="md:w-[80%] w-[90%] mt-14 md:mt-18 md:py-16 py-12  rounded-4xl  flex items-center justify-center bg-[#C7E8FF]">
-        <div className="md:w-[70%] w-[90%] flex flex-col md:flex-row  items-center justify-between gap-12 even:flex-row-reverse ">
-          <div className="md:w-[48%] h-full flex items-center justify-center ">
+
+  <div className=" flex items-center justify-center">
+
+       <div className="md:w-[80%] w-[90%] mt-14 md:mt-18 md:py-16 py-8 sm:py-8  rounded-4xl  flex items-center justify-center bg-[#C7E8FF]">
+       
+        <div className="sm:w-[70%] md:w-[90%] w-[90%] flex flex-col md:flex-row  items-center justify-between gap-12 even:flex-row-reverse ">
+          <div className="w-full md:w-[48%] h-full flex items-center justify-center ">
             <img className="w-full h-full  translate-y-3" src={ImageEight} alt="" />
           </div>
-          <div className="md:w-[40%] w-[80%] flex items-center flex-col md:flex-row ">
+          <div className="md:w-[40%] w-[80%] flex md:items-start text-sm items-center flex-col md:flex-col ">
              <p className="font-medium">For Companies</p>
 
-            <h1 className="text-3xl md:text-[2em] mt-6 text-center md:text-left font-bold leading-8.5 text-gray-800">
+            <h1 className="text-3xl sm:text-[2em] md:text-[1.6em] lg:text-[2em] mt-6 md:mt-4 lg:mt-6 text-center md:text-left font-bold leading-8.5 text-gray-800">
               Engage Your Audience Where It Matters
             </h1>
 
-            <p className="mt-6 text-gray-800 text-center md:text-left">
-           Budytalk gives you the tools to express your voice through posts, live talks, and VoiceCircles — whether you're a creator, friend, or thinker
+            <p className="mt-6 md:mt-4 lg:mt-6 text-gray-800 text-center md:text-left">
+           TrustedAt gives you the tools to express your voice through posts, live talks, and VoiceCircles — whether you're a creator, friend, or thinker
             </p>
 
           
           </div>
         </div>
       </div>
+  </div>
 
 
-          {/* why love budytalk */}
-       <div className="w-full  mt-[4em] mb-[3em] md:mt-[13em]  md:py-4 py-8 mb:mb-18 flex items-center justify-center flex-col">
-          <h1 className=" text-3xl md:text-[2.5em] flex flex-col md:leading-14 items-center font-extrabold text-gray-800 md:w-[40%] w-[90%] text-center">
-           Why Our Buddies Love Budytalk
+          {/* why love trustedAt */}
+       <div className="w-full  mt-[4em] mb-[3em] md:mt-[8em] sm:mt-[8em]  md:py-4 py-8 mb:mb-18 flex items-center justify-center flex-col">
+          <h1 className=" text-3xl md:text-[2.5em] flex flex-col md:leading-14 items-center font-extrabold text-gray-800 sm:w-[40%] md:w-[60%] w-[90%] text-center">
+           Why Our Buddies Love TrustedAt
           </h1>
 
-          <p className="md:w-[40%] w-[90%] text-center mt-8">
-                Discover how Budytalk is changing the way people connect, collaborate, and communicate — one voice at a time
+          <p className="sm:w-[40%] md:w-[60%] w-[90%] text-center mt-8">
+                Discover how TrustedAt is changing the way people connect, collaborate, and communicate — one voice at a time
           </p>
       </div>
       <PageCarousel></PageCarousel>
@@ -225,27 +231,27 @@ export default function HomePage() {
                 </div>
 
         <h1 className="text-3xl md:text-[2.5em] flex flex-col leading-14 items-center font-medium text-gray-800 md:w-[50%] w-[80%] text-center">
-          Budytalk will change the game of social networking
+          TrustedAt will professionalise the game of social networking
         </h1>
      
       </div>
 
 
       {/* dark part:join hundreds */}
-        <div className="md:w-[80%] h-[60vh] md:h-auto overflow-hidden md:overflow-visible bg-black/90 md:mt-18 md:rounded-[40%]  flex items-center justify-center md:bg-[#EEFFD0]">
+        <div className=" md:w-[90%]  lg:w-[80%] lg:h-[80vh] h-[60vh] sm:py-2 md:h-[80vh] overflow-hidden md:overflow-visible bg-black/90 md:mt-18 rounded-0 sm:rounded-0 md:rounded-[40%]  flex items-center justify-center md:bg-[#EEFFD0]">
         
          <img src={ImageBg} className="w-full h-full" alt="" />
-          <div className=" w-[80%] md:w-[50%] absolute z-10 flex items-center flex-col">
+          <div className=" w-[80%] sm:w-[70%] md:w-[60%] absolute z-10 flex items-center flex-col">
           
-            <h1 className="text-3xl md:text-[2.7em] mt-6  font-bold md:leading-15 leading-12 text-white text-center">
-              Join hundreds of millions of users and try Budytalk today.
+            <h1 className="text-3xl lg:text-[2.7em] md:text-[2em] lg:leading-8 xl:leading-14 mt-6  font-bold md:leading-15 leading-12 text-white text-center">
+              Join hundreds of millions of users and try TrustedAt today.
             </h1>
 
           <div className=" gap-4 flex mt-12 w-full  justify-center md:justify-center items-center">
-            <button className="md:px-12 px-8 text-sm md:py-5 py-3 bg-primary/80 text-white rounded-full">
+            <button className="text-sm px-8 lg:py-3 xl:py-4 md:py-3 sm:py-2 py-2 bg-primary/80 text-white rounded-full">
               App Store
             </button>
-            <button className="md:px-12 px-8 text-sm md:py-5 py-3 rounded-full border border-white text-white">
+            <button className=" text-sm px-8 lg:py-3 xl:py-4 md:py-3 sm:py-2 py-2 rounded-full border border-white text-white">
               Google Play
             </button>
       </div>

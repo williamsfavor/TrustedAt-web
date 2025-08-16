@@ -56,7 +56,7 @@ export default function PageCarousel() {
 
                     <div>
                         <p className="font-semibold text-sm md:text-md">— Brian O.</p>
-                        <p className="md:text-sm text-xs" >Student & Budytalk Creator</p>
+                        <p className="md:text-sm text-xs" >Student & TrustedAt Creator</p>
                     </div>
 
                 </div>

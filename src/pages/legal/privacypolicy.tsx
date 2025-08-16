@@ -28,7 +28,7 @@ social interaction
 
 # 1.2 Changes or Updates
 
-Any changes to this Privacy Policy will take effect on the "effective date." Budytalk reserves the right to modify this Privacy Policy. If we implement significant changes, we will notify you through our Services or by other means, allowing you the opportunity to review the changes before they become effective. If you disagree with any of the changes, you have the option to close your account.
+Any changes to this Privacy Policy will take effect on the "effective date." TrustedAt reserves the right to modify this Privacy Policy. If we implement significant changes, we will notify you through our Services or by other means, allowing you the opportunity to review the changes before they become effective. If you disagree with any of the changes, you have the option to close your account.
 By acknowledging this, you understand that your continued use of our Services after we publish or send a notice about updates to this Privacy Policy means that the collection, use, and sharing of your personal data will be governed by the updated Privacy Policy as of its effective date.
 
 # 2.0 How we collect your data
@@ -39,7 +39,7 @@ To become a registered user (“Member”), there is some data you will need to 
 
 # 2.2 Registration
 
-To set up an account, you are required to provide certain information, including your name, email address and/or mobile number, and a password. If you choose to register for a premium service, you'll need to furnish payment details (e.g., credit card) and billing information. Completing a full Budytalk profile enables you to maximize the benefits of our Services.
+To set up an account, you are required to provide certain information, including your name, email address and/or mobile number, and a password. If you choose to register for a premium service, you'll need to furnish payment details (e.g., credit card) and billing information. Completing a full TrustedAt profile enables you to maximize the benefits of our Services.
 
 # 2.3 Profile
 

@@ -5,7 +5,7 @@ export default function UserAgreementPage(){
     const content = `
 # 1. Introduction
 
-Welcome to Budytalk. Your privacy is important to us. This policy outlines how we collect, use, share, and protect your personal information.
+Welcome to TrustedAt. Your privacy is important to us. This policy outlines how we collect, use, share, and protect your personal information.
 
 # 2. Information We Collect
 
@@ -16,7 +16,7 @@ Location Data: Only if location-sharing is enabled.
 
 # 3. How We Use Your Information
 
-To provide and improve the Budytalk experience
+To provide and improve the TrustedAt experience
 To personalize content and suggest connections
 To ensure safety, prevent fraud, and moderate content
 To communicate updates, offers, and announcements
@@ -41,7 +41,7 @@ We use encryption and access controls to safeguard your data.
 
 # 7. Children’s Privacy
 
-Budytalk is not intended for users under 13 (or relevant age in your country).
+TrustedAt is not intended for users under 13 (or relevant age in your country).
 
 # 8. Changes to This Policy
 
@@ -49,7 +49,7 @@ We may update this policy. You’ll be notified of significant changes via the a
 
 # 9. Contact Us
 
-For privacy questions: support@budytalk.app
+For privacy questions: support@trustedAt.app
 
     `;
 
@@ -57,7 +57,7 @@ For privacy questions: support@budytalk.app
         <>
          <div className="w-full flex flex-col">
             <h1 className="text-2xl md:text-[2.5em] font-extrabold text-gray-800">
-               Budytalk User Agreement
+               TrustedAt User Agreement
             </h1>
             <p className="text-gray-700">Effective January 4, 2021</p>
 
