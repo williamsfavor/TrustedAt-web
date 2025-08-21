@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { type RootState, type AppDispatch } from '@/store/store';
 import { fetchPolicies } from '@/store/legal/legalSlice';
-import { dateFormat } from '../utils/utils';
 
+import dayjs from "dayjs";
 interface LegalDocumentProps {
   policyKey: string;
 }
@@ -29,7 +29,8 @@ export default function LegalDocument({ policyKey }: LegalDocumentProps) {
   const policy = policies.find((item) => item.legalType === policyKey);
   const content = policy?.content || '';
   const title = policy?.title || '...';
-  const effectiveDate = policy?.effectiveDate ? dateFormat(policy.effectiveDate) : 'Unknown';
+  const effectiveDate = policy?.effectiveDate ? dayjs(policy.effectiveDate).format("MMM YYYY ddd") : 'Unknown';
+  console.log(effectiveDate)
 
   return (
     <div className="w-full flex flex-col">
