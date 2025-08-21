@@ -17,8 +17,7 @@ export default function AboutHeroSection() {
         </div>
 
         <p className="md:-translate-y-2 md:w-[35%] mt-5 w-[85%] text-center ">
-        We’re building a voice-first platform that brings people, professionals, and communities closer through
-authentic audio and video conversations
+          We’re building a trust centric platform that brings people, professionals, and communities closer through authentic audio and video conversations.
         </p>
 
         <div className=" md:w-[80%] w-[90%] mt-8 md:mt-16">

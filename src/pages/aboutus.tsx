@@ -56,7 +56,7 @@ export default function AboutUs() {
       {/* hero section */}
       <AboutHeroSection></AboutHeroSection>
       {/* our story */}
-      <div className="md:py-18 py-14 mt-14 flex items-center justify-center flex-col md:mt-24 ">
+      <div className="md:py-18 sm:py-14 sm:mt-14 flex items-center justify-center flex-col md:mt-24 ">
         <h1 className=" text-4xl md:text-[2.5em] flex flex-col leading-14 items-center font-extrabold text-gray-800 md:w-[50%] w-full text-center">
           Our Story
         </h1>
@@ -68,7 +68,7 @@ export default function AboutUs() {
       {/* vision statement */}
       <VisionStatement></VisionStatement>
       {/* culture & values */}
-      <div className="md:py-18 py-14  flex items-center justify-center flex-col">
+      <div className="md:py-18 sm:py-14  flex items-center justify-center flex-col">
         <p className="py-2 text-gray-600">Culture & Values</p>
         <h1 className="md:text-[2.5em] text-3xl flex flex-col leading-14 items-center font-extrabold text-gray-800 md:w-[50%] text-center">
           What We Believe In
@@ -115,7 +115,7 @@ export default function AboutUs() {
         </div>
       </div>
       {/* testimonials */}
-      <div className="w-[95%] min-h-[300px] py-28 md:pb-2  gap-5 rounded-[50px] flex items-center justify-center flex-col">
+      <div className="w-[95%] min-h-[300px] py-18 sm:py-28 md:pb-2  gap-5 rounded-[50px] flex items-center justify-center flex-col">
         <div>
           <svg
             width="24"

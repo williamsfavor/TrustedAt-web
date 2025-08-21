@@ -12,7 +12,7 @@ export default function ContactHeroSection() {
       </div>
 
       <p className=" md:mt-10 mt-8 md:w-[55%] w-[85%] text-center text-white ">
-       Whether you’re a user, partner, or press, we’d love to hear from you.  Give us that call, email, call or sms us, we shall answer in just minutes
+       Whether you’re a user, partner, or press, we’d love to hear from you. Contact us through the means below, we will definitely get back to you
       </p>
 
     

@@ -1,9 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import NavReducer from  "./navbar/nav";
-
+import legalReducer from "./legal/legalSlice";
 const store = configureStore({
     reducer:{
-        NavReducer
+        NavReducer,
+        legal:legalReducer
     }
 });
 

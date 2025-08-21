@@ -11,8 +11,8 @@ export default function LegalPage() {
         <h1>Legal</h1>
       </div>
       <div className="w-full h-auto flex flex-col md:flex-row md:px-14 px-5 gap-2">
-        <div className="md:w-[20%] w-full   md:pr-3 overflow-scroll md:overflow-auto ">
-          <ul className="flex md:flex-col md:w-full  min-w-[150vh] gap-2 ">
+        <div className="md:w-[20%] w-full   md:pr-3 overflow-scroll md:overflow-auto  lg:overflow-hidden ">
+          <ul className="flex md:flex-col md:w-full mt-8 min-w-[100vh] lg:w-full gap-2 text-sm lg:pr-4  ">
             <li
               onClick={() => navigate("/legal")}
               className={`h-[38px] w-auto cursor-pointer ${

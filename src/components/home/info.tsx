@@ -11,7 +11,7 @@ export default function DetailsHome({info,title,reverse}:DetailInterface) {
   
   
     return (
-    <div className="w-full  pt-12 pb-8 md:py-15 flex items-center justify-center flex-col">
+    <div className="w-full  sm:pt-12 pb-8 md:py-15 flex items-center justify-center flex-col">
        {
         title?
             <h1 className=" text-3xl md:text-[2.5em] flex flex-col md:leading-14 items-center font-extrabold text-gray-800 w-[90%] md:w-[50%] text-center">

@@ -20,7 +20,7 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="w-screen h-[10vh] md:h-[12vh] px-4 md:px-8 bg-white/60 backdrop-blur-md shadow sticky top-0 z-20 flex justify-between items-center">
+      <div className="w-screen h-[8vh] md:h-[12vh] px-4 md:px-8 bg-white/60 backdrop-blur-md shadow sticky top-0 z-20 flex justify-between items-center">
         <div>
           <img src={Logo} className="h-10 md:h-12" alt="TrustedAt Logo" />
         </div>

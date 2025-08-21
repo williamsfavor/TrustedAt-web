@@ -37,7 +37,7 @@ integrity, and career empowerment
                     </h1>
 
                     <p className="text-sm font-light text-center md:text-left">
-                    Budytalk exists to close the trust gap in digital professional relationships by delivering a secure, privacy-respecting platform that fosters
+                    TrustedAt exists to close the trust gap in digital professional relationships by delivering a secure, privacy-respecting platform that fosters
 verified, intentional, and inclusive connections across borders and industries.
                     
                     </p>

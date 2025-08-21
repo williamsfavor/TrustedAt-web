@@ -64,7 +64,7 @@ export default function HomePage() {
     <div className="mb-8 flex flex-col items-center justify-center ">
       {/* hero section */}
       <HeroSection></HeroSection>
-      <div className="flex items-center justify-center pb-12  md:py-16 py-10 mt-8">
+      <div className="flex items-center justify-center pt-2 pb-12  md:py-16 py-10 sm:mt-8">
         <h1 className="text-3xl lg:text-[2.5em] sm:text-3xl md:text-[2.5em] w-[90%] sm:w-[70%] md:w-[60%] lg:w-[60%] text-center flex flex-col items-center font-extrabold text-gray-800 ">
           <span className=" text-wrap">{"Every hello starts a new \n connection on TrustedAt"}</span>
         

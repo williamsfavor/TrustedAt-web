@@ -4,7 +4,7 @@ import budyTalkIcon2 from "@/assets/home/Group 1171274973.png"
 export default function PageFooter() {
   return (
     <div className="w-full min-h-[40vh] py-14 pb-2 md:mt-26 gap-6 flex md:px-14 flex-col   justify-center ">
-      <div className="w-full flex flex-col sm:items-center bg-white  md:flex-row  md:justify-between  md:px-5 px-5 xl:px-12 lg:px-4">
+      <div className="w-full flex flex-col sm:items-center bg-white  md:flex-row  md:justify-between  md:px-5 px-5 xl:items-start xl:px-12 lg:px-4">
         <div className="flex-col  lg:w-[30%] md:w-[30%] sm:w-[80%] sm:items-center md:items-start flex sm:flex-col  w-full bg-white h-full py-6 ">
           <div className="flex items-center gap-4">
             <div className="flex items-center">
@@ -21,7 +21,7 @@ export default function PageFooter() {
             </p>
           </div>
         </div>
-        <div className="flex w-full   lg:w-[60%]  sm:items-center    md:text-sm sm:w-[60%] md:w-[60%] sm:justify-center xl:pl-12 lg:text-sm xl:text-base  md:justify-evenly">
+        <div className="flex w-full   lg:w-[60%]  sm:items-center    md:text-sm sm:w-[60%] md:w-[60%] sm:justify-center xl:pl-12 lg:text-sm xl:text-base xl:items-start  md:justify-evenly">
             <div className=" bg-white md:w-[45%] w-[50%] sm:w-[40%]  h-full sm:flex sm:items-start sm:flex-col md:px-1  py-6 ">
               <h1 className=" font-bold text-gray-500 ">Who we are</h1>
               <ul className="mt-6 md:mt-4 gap-2 flex flex-col sm:text-sm text-sm">
