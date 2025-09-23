@@ -51,7 +51,7 @@ const initialState: LegalState = {
 };
 
 export const fetchPolicies = createAsyncThunk('legal/fetchPolicies', async () => {
-  const response = await fetch('api.trustedat.com/public/legal-documents');
+  const response = await fetch('https://api.trustedat.com/public/legal-documents');
   if (!response.ok) {
     throw new Error('Failed to fetch legal documents');
   }
