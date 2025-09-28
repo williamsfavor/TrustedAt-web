@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
-import Logo from "../assets/budy.svg";
+import Logo from "../assets/icon.png";
 import { useState } from "react";
 
 export default function NavBar() {
@@ -22,7 +22,7 @@ export default function NavBar() {
     <>
       <div className="w-screen h-[8vh] md:h-[12vh] px-4 md:px-8 bg-white/60 backdrop-blur-md shadow sticky top-0 z-20 flex justify-between items-center">
         <div>
-          <img src={Logo} className="h-10 md:h-12" alt="TrustedAt Logo" />
+          <img src={Logo} className="h-10 md:h-12 rounded-md" alt="TrustedAt Logo" />
         </div>
         <ul className="hidden md:flex bg-primary/10 text-gray-800 py-2 px-1 rounded-full">
           <li className="mx-2">
@@ -75,7 +75,7 @@ export default function NavBar() {
           </li>
         </ul>
         <div className="flex items-center gap-4">
-          <button className="px-4 py-2 md:px-6 md:py-2.5 text-xs md:text-sm rounded-full bg-primary/70 text-white hover:bg-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary">
+          <button className="px-4 py-2 md:px-6 md:py-2.5 text-xs md:text-sm rounded-full bg-primary/90 cursor-pointer text-white hover:bg-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary">
             Get The App
           </button>
           <motion.button
@@ -102,9 +102,9 @@ export default function NavBar() {
             exit="closed"
           >
             <div className="flex h-[10vh] px-6 py-4 items-center justify-between border-b border-gray-200">
-              <img src={Logo} className="h-10" alt="TrustedAt Logo" />
+              <img src={Logo} className="h-10 rounded-md" alt="TrustedAt Logo" />
               <div className="flex items-center gap-4">
-                <button className="px-4 py-2 text-xs rounded-full bg-primary/70 text-white hover:bg-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary">
+                <button className="px-4 py-2 text-xs rounded-full bg-primary/90 cursor-pointer text-white hover:bg-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary">
                   Get The App
                 </button>
                 <motion.button

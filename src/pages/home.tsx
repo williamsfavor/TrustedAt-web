@@ -243,7 +243,7 @@ export default function HomePage() {
          <img src={ImageBg} className="w-full h-full" alt="" />
           <div className=" w-[80%] sm:w-[70%] md:w-[60%] absolute z-10 flex items-center flex-col">
           
-            <h1 className="text-3xl lg:text-[2.7em] md:text-[2em] lg:leading-8 xl:leading-14 mt-6  font-bold md:leading-15 leading-12 text-white text-center">
+            <h1 className="text-3xl lg:text-[2.7em] md:text-[2em] lg:leading-14 xl:leading-14 mt-6  font-bold md:leading-15 leading-12 text-white text-center">
               Join hundreds of millions of users and try TrustedAt today.
             </h1>
 

@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 
+
 export interface Policy {
   id: string;
   legalType: string;
@@ -34,7 +35,7 @@ export interface Policy {
   updatedAt: string;
 }
 
-// type Policies = Record<string, Policy | null>;
+type Policies = Record<string, Policy | null>;
 
 interface LegalState {
   policies: Policy[];
@@ -51,7 +52,7 @@ const initialState: LegalState = {
 };
 
 export const fetchPolicies = createAsyncThunk('legal/fetchPolicies', async () => {
-  const response = await fetch('https://api.trustedat.com/public/legal-documents');
+  const response = await fetch(import.meta.env.VITE_API_URL + '/public/legal-documents');
   if (!response.ok) {
     throw new Error('Failed to fetch legal documents');
   }

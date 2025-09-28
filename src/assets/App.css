@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme  {
-  --color-primary:#5B08A9;
+  --color-primary:#b001fbde;
   --color-primary2: #2B3674;
   --font-display:"Public Sans","Sans Serif";
   --theme-shadow-color: rgba(0, 0, 0, 0.1);

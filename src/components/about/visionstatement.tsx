@@ -18,8 +18,9 @@ export default function VisionStatement(){
                     </h1>
 
                     <p className="text-sm text-center md:text-left">
-                        To redefine professional networking through a secure, verified, and ethically driven platform that fosters genuine engagement, identity
-integrity, and career empowerment
+                        To redefine professional networking through a secure, verified, 
+                        and ethically driven platform that fosters genuine engagement, identity
+                        integrity, and career empowerment across borders
 
                     </p>
                     <p></p>
@@ -37,8 +38,9 @@ integrity, and career empowerment
                     </h1>
 
                     <p className="text-sm font-light text-center md:text-left">
-                    TrustedAt exists to close the trust gap in digital professional relationships by delivering a secure, privacy-respecting platform that fosters
-verified, intentional, and inclusive connections across borders and industries.
+                    To close the trust gap in digital professional relationships 
+                    by delivering a secure, privacy-centric platform that enables
+                    verified, intentional, and inclusive connections across borders and industries.
                     
                     </p>
                 </div>

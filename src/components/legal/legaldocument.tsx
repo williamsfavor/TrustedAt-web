@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { type RootState, type AppDispatch } from '@/store/store';
 import { fetchPolicies } from '@/store/legal/legalSlice';
+import { dateFormat } from '../utils/utils';
 
-import dayjs from "dayjs";
 interface LegalDocumentProps {
   policyKey: string;
 }
@@ -22,15 +22,20 @@ export default function LegalDocument({ policyKey }: LegalDocumentProps) {
   }, [dispatch, status, retryCount]);
 
   const handleRetry = () => {
+   
     setRetryCount((prev) => prev + 1);
     dispatch(fetchPolicies());
   };
+  
+  const skeletonWidths = useMemo(
+  () => Array.from({ length: 20 }, () => `${Math.floor(Math.random() * 40) + 40}%`),
+  []
+);
 
   const policy = policies.find((item) => item.legalType === policyKey);
   const content = policy?.content || '';
   const title = policy?.title || '...';
-  const effectiveDate = policy?.effectiveDate ? dayjs(policy.effectiveDate).format("MMM YYYY ddd") : 'Unknown';
-  console.log(effectiveDate)
+  const effectiveDate = policy?.effectiveDate ? dateFormat(policy.effectiveDate) : 'Unknown';
 
   return (
     <div className="w-full flex flex-col">
@@ -53,14 +58,12 @@ export default function LegalDocument({ policyKey }: LegalDocumentProps) {
       )}
       <div className="mt-5 markdown">
         {status === 'loading' && (
-          <div className="w-full min-h-[40vh] loadingLow p-4 py-0 pb-8 rounded-md">
-            {Array.from({ length: 20 }).map((_, idx) => (
+           <div className="w-full min-h-[40vh] loadingLow p-4 py-0 pb-8 rounded-md">
+            {skeletonWidths.map((width, idx) => (
               <div
                 key={idx}
                 className="loading w-full mt-5 h-[20px] rounded-full"
-                style={{
-                  width: `${Math.floor(Math.random() * 40) + 40}%`,
-                }}
+                style={{ width }}
               ></div>
             ))}
           </div>

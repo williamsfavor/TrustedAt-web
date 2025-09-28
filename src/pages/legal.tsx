@@ -1,4 +1,4 @@
-import {  Outlet, useLocation, useNavigate } from "react-router";
+import { Link, Outlet, useLocation, useNavigate } from "react-router";
 
 export default function LegalPage() {
   const location = useLocation();
