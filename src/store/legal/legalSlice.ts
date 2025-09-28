@@ -35,7 +35,7 @@ export interface Policy {
   updatedAt: string;
 }
 
-type Policies = Record<string, Policy | null>;
+// type Policies = Record<string, Policy | null>;
 
 interface LegalState {
   policies: Policy[];
